@@ -1,0 +1,55 @@
+/* CSS Stylesheet for gr8 project 3 */
+/* Author: Mikkel Baterina */
+/* Plain background, Ohio State colors */
+/* Soft, rounded corners for table, sleek and consistent design */
+
+/* background gray, roboto font family for simplicity*/
+body { 
+  font-family: 'Roboto', sans-serif; 
+  background-color: #e0e0e0;
+  align-self: center;
+  margin: auto;
+  text-align: center;
+}
+
+/* Headers to be underlined, siginificantly larger than the other text*/
+h1 {
+  font-size: 2.5em;
+  text-decoration: underline;
+}
+
+/* Format a soft, clean table */
+table {
+  border-collapse: collapse;
+  border-radius: 5px;
+  border: 1px solid #6f6f6f;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  background-color: #f6f6f6;
+  text-align: center;
+  max-width: 1000px;
+}
+
+th, td {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #6f6f6f;
+}
+
+th {
+  background-color: #8d0404;
+  color: white;
+}
+
+/* Format the links so they aren't blue, change when hovered */
+a:link, a:visited {
+  color: #8d0404;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #cf0000;
+  text-shadow: 3px black;
+  text-decoration: underline;
+}
